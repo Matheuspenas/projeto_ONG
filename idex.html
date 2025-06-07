@@ -5,11 +5,13 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>ONGlink</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./css/styly.css'>
-    <script src='main.js'></script>
+
+    <link rel='stylesheet' type='text/css' href='/projeto_ONG/css/style.css'>
+    <!-- Corrigido: caminho do JS -->
+    <script src='/projeto_ONG/main.js' defer></script>
 </head>
 <body>
-    <!-- cabecario da pagina -->
+    <!-- cabeçalho da página -->
     <header>
         <h1>ONGlink</h1>
         <p>Conectando quem quer ajudar com quem precisa de ajuda</p>
@@ -19,7 +21,7 @@
         </nav>
     </header>
 
-    <!-- conteudo principal da pagina -->
+    <!-- conteúdo principal da página -->
     <main>
         <section id="sobre">
             <h1>Prazer em conhecê-los</h1>
@@ -39,13 +41,13 @@
         </section>
 
         <div class="card-container">
-            <div class="action-card" onclick="location.href='visualizar.html'">
+            <div class="action-card" onclick="location.href='/projeto_ONG/visualizar.html'">
                 <h2>🔍 Visualizar Necessidades</h2>
                 <p>Veja as oportunidades de voluntariado disponíveis.</p>
                 <button>Ver Oportunidades</button>
             </div>
 
-            <div class="action-card" onclick="location.href='cadastrar.html'">
+            <div class="action-card" onclick="location.href='/projeto_ONG/cadastrar.html'">
                 <h2>➕ Cadastrar Necessidade</h2>
                 <p>Instituições podem registrar novas demandas por ajuda.</p>
                 <button>Cadastrar Agora</button>
@@ -53,9 +55,9 @@
         </div>
     </main>
 
-    <!-- rodape da pagina -->
+    <!-- rodapé da página -->
     <footer> 
-        <p>&copy;-2025 | ONGlink | Todos os direitos reservados</p>
+        <p>&copy; 2025 | ONGlink | Todos os direitos reservados</p>
     </footer>
 </body>
 </html>
